@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../generated/l10n.dart';
+
 class AddCardButton extends StatelessWidget {
   final VoidCallback _onPressed;
 
@@ -9,12 +11,13 @@ class AddCardButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var messages = S.of(context);
     return RaisedButton(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(30.0),
       ),
       onPressed: _onPressed,
-      child: Text('Add Card'),
+      child: Text(messages.addCard),
     );
   }
 }

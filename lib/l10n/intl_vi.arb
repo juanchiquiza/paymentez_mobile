@@ -1,0 +1,36 @@
+{
+  "app_name" : "Paymentez SDK",
+  "add_card_name_hint" : "Jhon Doe",
+  "add_card_name_label": "Tên chủ thẻ",
+  "add_card_invalid_name": "Tên chủ thẻ của bạn không hợp lệ.",
+
+
+
+  "add_card_number_hint" : "XXXX XXXX XXXX XXXX",
+  "add_card_number_label" : "Số thẻ",
+  "add_card_invalid_number" : "Số thẻ của bạn không hợp lệ.",
+
+  "add_card_expiration_date_hint" : "MM/YY",
+  "add_card_expiration_date_label" : "Ngày hết hạn",
+  "add_card_empty_expiration_date" : "Vui lòng nhập ngày hết hạn thẻ của bạn",
+  "add_card_invalid_expiration_month" : "Tháng hết hạn thẻ của bạn không hợp lệ.",
+  "add_card_invalid_expiration_year" : "Năm hết hạn của thẻ của bạn không hợp lệ.",
+  "add_card_invalid_expiration_date" : "Ngày hết hạn thẻ của bạn không hợp lệ.",
+
+  "add_card_cvc_hint" : "123",
+  "add_card_cvc_amex_hint" : "1234",
+  "add_card_cvc_label" : "CVC",
+  "add_card_cvc_amex_label" : "CVV",
+  "add_card_invalid_cvc" : "Mã bảo mật của thẻ của bạn không hợp lệ.",
+
+  "add_card_fiscal_number_label" : "Số tài chính",
+  "add_card_invalid_fiscal_number" : "Your fiscal number is invalid.",
+
+  "add_card_tuya_code_label" : "Mật khẩu Tuya",
+  "add_card_invalid_tuya_code" : "Mật khẩu không hợp lệ",
+  "add_card_camera_instructions" : "Xác định vị trí mặt trước của thẻ của bạn\nbên trong hướng dẫn và chờ trong khi\nmáy ảnh chụp ảnh",
+  "loading_lbl" : "Đang tải...",
+  "addCard": "Thêm thẻ"
+
+
+}

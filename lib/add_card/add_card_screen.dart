@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:paymentez_mobile/add_card/add_card_form.dart';
 import 'package:paymentez_mobile/add_card/bloc/bloc.dart';
 import 'package:paymentez_mobile/channel/paymentez_channel.dart';
+import 'package:paymentez_mobile/generated/l10n.dart';
 import 'package:paymentez_mobile/repository/paymentez_repository.dart';
 
 
@@ -16,9 +17,10 @@ class AddCardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var messages = S.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text('AddCard'),
+        title: Text(messages.addCard),
         leading: BackButton(
           onPressed: () => Paymentez.getInstance.pop(context),
         ),

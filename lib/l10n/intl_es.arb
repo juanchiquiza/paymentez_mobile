@@ -4,7 +4,7 @@
   "add_card_name_label": "Nombre del titular (igual que en la tarjeta)",
   "add_card_invalid_name": "El Nombre del titular de la tarjeta no es válido.",
 
-  "add_card_number_hint" : "1234 1234 1234 1234",
+  "add_card_number_hint" : "XXXX XXXX XXXX XXXX",
   "add_card_number_label" : "Número de tarjeta",
   "add_card_invalid_number" : "El número de tarjeta no es válido.",
 
@@ -26,6 +26,6 @@
   "add_card_tuya_code_label" : "Clave Tuya",
   "add_card_invalid_tuya_code" : "Clave invalida.",
   "add_card_camera_instructions" : "Ubique el frente de su tarjeta\ndentro de las guías y espere mientras\nel sistema captura la foto",
-  "loading_lbl" : "Cargando..."
-
+  "loading_lbl" : "Cargando...",
+  "addCard": "Agregar tarjeta"
 }

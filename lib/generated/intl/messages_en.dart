@@ -21,6 +21,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "addCard" : MessageLookupByLibrary.simpleMessage("Add card"),
     "add_card_camera_instructions" : MessageLookupByLibrary.simpleMessage("Locate the front of your card\ninside the guides and wait while\nthe camera capture the photo"),
     "add_card_cvc_amex_hint" : MessageLookupByLibrary.simpleMessage("1234"),
     "add_card_cvc_amex_label" : MessageLookupByLibrary.simpleMessage("CVV"),
@@ -40,7 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "add_card_invalid_tuya_code" : MessageLookupByLibrary.simpleMessage("Invalid password"),
     "add_card_name_hint" : MessageLookupByLibrary.simpleMessage("Jhon Doe"),
     "add_card_name_label" : MessageLookupByLibrary.simpleMessage("Card Holder\'s Name"),
-    "add_card_number_hint" : MessageLookupByLibrary.simpleMessage("1234 1234 1234 1234"),
+    "add_card_number_hint" : MessageLookupByLibrary.simpleMessage("XXXX XXXX XXXX XXXX"),
     "add_card_number_label" : MessageLookupByLibrary.simpleMessage("Card number"),
     "add_card_tuya_code_label" : MessageLookupByLibrary.simpleMessage("Tuya password"),
     "app_name" : MessageLookupByLibrary.simpleMessage("Paymentez SDK"),

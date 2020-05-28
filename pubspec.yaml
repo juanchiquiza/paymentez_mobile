@@ -4,7 +4,7 @@ description: A new Flutter module to use the paymentez services for Android and 
 version: 1.0.0+3
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -15,6 +15,7 @@ dependencies:
   equatable: ^1.0.0
   meta: ^1.1.6
   font_awesome_flutter: ^8.5.0
+  intl: 0.16.0
   flutter_bloc: ^3.1.0
   path_provider: ^1.5.1
   after_layout: ^1.0.7+2

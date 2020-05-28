@@ -6,7 +6,7 @@
 
 
 
-  "add_card_number_hint" : "1234 1234 1234 1234",
+  "add_card_number_hint" : "XXXX XXXX XXXX XXXX",
   "add_card_number_label" : "Número do cartão",
   "add_card_invalid_number" : "Número do cartão Inválido.",
 
@@ -28,6 +28,6 @@
   "add_card_tuya_code_label" : "Senha Tuya",
   "add_card_invalid_tuya_code" : "Senha Inválida.",
   "add_card_camera_instructions" : "Localize a frente do seu cartão\ndentro das guias e aguarde enquanto\no sistema captura a foto",
-  "loading_lbl" : "Carregando..."
-
+  "loading_lbl" : "Carregando...",
+  "addCard": "Adicionar cartão"
 }

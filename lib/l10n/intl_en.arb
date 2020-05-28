@@ -6,7 +6,7 @@
 
 
 
-  "add_card_number_hint" : "1234 1234 1234 1234",
+  "add_card_number_hint" : "XXXX XXXX XXXX XXXX",
   "add_card_number_label" : "Card number",
   "add_card_invalid_number" : "Your card's number is invalid.",
 
@@ -29,8 +29,6 @@
   "add_card_tuya_code_label" : "Tuya password",
   "add_card_invalid_tuya_code" : "Invalid password",
   "add_card_camera_instructions" : "Locate the front of your card\ninside the guides and wait while\nthe camera capture the photo",
-  "loading_lbl" : "Loading..."
-
-
-
+  "loading_lbl" : "Loading...",
+  "addCard": "Add card"
 }

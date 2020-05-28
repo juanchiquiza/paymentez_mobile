@@ -58,6 +58,7 @@ class _AppState extends State<App> with AfterLayoutMixin<App> {
         supportedLocales: [
           const Locale('es', ''),
           const Locale('en', ''),
+          const Locale('vi', ''),
           const Locale('pt', ''),
         ],
         onGenerateRoute: router.generator);
